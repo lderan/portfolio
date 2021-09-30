@@ -1,9 +1,9 @@
 <template>
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/porforlio">Portfolio</a></li>
-      <li><a href="/">C.V / Resume</a></li>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/porforlio">Portfolio</router-link></li>
+      <li><router-link to="/">C.V / Resume</router-link></li>
     </ul>
   </nav>
   <router-view />
